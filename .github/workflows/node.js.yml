@@ -22,6 +22,7 @@ jobs:
     steps:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
@@ -34,6 +35,8 @@ jobs:
 =======
 =======
 >>>>>>> parent of a9af915 (Add Component Navbar & Footer)
+=======
+>>>>>>> parent of a9af915 (Add Component Navbar & Footer)
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
@@ -44,6 +47,9 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of a9af915 (Add Component Navbar & Footer)
+=======
 >>>>>>> parent of a9af915 (Add Component Navbar & Footer)
 =======
 >>>>>>> parent of a9af915 (Add Component Navbar & Footer)
