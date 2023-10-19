@@ -1,4 +1,5 @@
 $blue: #2196f3;
+$red: firebrick;
 
 .btn {
   border: 2px solid black;
@@ -17,4 +18,18 @@ $blue: #2196f3;
     background: $blue;
     color: white;
   }
+}
+
+.btn-danger {
+  border-color: $red;
+  color: $red;
+
+  &:hover {
+    background: $red;
+    color: white;
+  }
+}
+
+.title {
+  color: $red;
 }
